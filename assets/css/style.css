@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.heroImg {
+	background-image: linear-gradient(rgb(218, 51, 45, 0.5), rgb(218, 51, 45, 0.5)), url(../images/background.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	padding: 45px 0 64px;
+	overflow: hidden;
+}
+
+.heroImg ul {
+	display: inline-block;
+}
+
+.heroImg .navbar li {
+	display: inline-block;
+	padding-top: 16px;
+}
+
+.heroImg .navbar li:not(:last-child) {
+	margin-right: 40px;
+}
+
+.heroImg .navbar a {
+	padding: 10px 0;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 16px;
+	position: relative;
+
+}
+
+.navbar ul li a::before {
+	content: "";
+	position: absolute;
+	/* right:0; */
+	bottom: 0;
+	/* top: 0; */
+	left: 0;
+	height: 5px;
+	width: 0%;
+	background-color: #fff;
+	transition: all 0.5s ease-in-out;
+}
+
+.heroImg .navbar a:hover::before {
+	width: 100%;
+}
+
+/* .heroImg .navbar a:hover{
+	border-bottom: 5px solid #ffffff;
+	
+} */
+.download a {
+	font-size: 17px;
+	font-weight: bold;
+	color: #ffffff;
+	background-color: #282828;
+	text-transform: uppercase;
+	padding: 15px 48px 15px 35px;
+	border-radius: 45px;
+	margin-left: 50px;
+	display: inline-block;
+	transition: all 0.5s ease-in-out;
+}
+
+.download a:hover {
+	background-color: #ffffff;
+	color: #282828;
+	outline: 2px solid #282828;
+}
+
+.download a i {
+	margin-right: 20px;
+	font-size: 38px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.heroImg .mobileImg {
+	position: relative;
+}
+
+.heroImg .mobileImg img {
+	position: absolute;
+	right: 0;
+	top: -35px;
+}
+
+.app_features {
+	padding: 80px 0 110px;
+}
+
+.app_features .sec-heading {
+	font-size: 52px;
+	font-weight: bold;
+	color: #8a8a8a;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.app_features .para {
+	font-size: 22px;
+	color: #3a3a3a;
+	font-weight: 400;
+	margin-bottom: 60px;
+	line-height: 1.5;
+}
+
+.thumbnail_img {
+	height: 180px;
+	width: 180px;
+	margin: 0 auto 35px;
+}
+
+.thumbnail_img img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.app_features .third_heading {
+	font-size: 24px;
+	font-weight: bold;
+	color: #1a1a1a;
+	margin-bottom: 40px;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.app_features .fet_para {
+	font-size: 18px;
+	font-weight: 400;
+	color: #646464;
+	line-height: 1.5;
+
+}
+
+/* ----------------------------------choclet section----------------------- */
+
+.choclate {
+	padding: 70px 0;
+	background-image: url(../images/background1.jpg);
+	background-color: #d7dedc;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.choco_heading {
+	font-size: 52px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 50px;
+	color: #ffffff;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.choco_para {
+	font-size: 24px;
+	color: #585858;
+	font-weight: 400;
+	margin-bottom: 70px;
+	width: 60%;
+	line-height: 1.5;
+}
+
+.choclate .btn {
+	padding: 18px 24px;
+	color: #ffffff;
+	font-size: 15px;
+	background-color: #d9332d;
+	border-radius: 40px;
+	text-transform: uppercase;
+	border: none;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+
+.choclate .btn:hover {
+	color: #d9332d;
+	background-color: transparent;
+	outline: 2px solid #d9332d;
+}
+
+/* ----------------------------------mobileapp section----------------------- */
+
+.mobileapp {
+	padding: 120px 0 150px;
+	background-color: #2e2e38;
+}
+
+.botlogo {
+	margin-bottom: 60px;
+	;
+}
+
+.bot_heading {
+	font-size: 20px;
+	color: #ffffff;
+	font-weight: bold;
+	margin-bottom: 30px;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: capitalize;
+}
+
+.mobileapp ul li .box {
+	height: 40px;
+	width: 52px;
+	background-color: #d9332d;
+	margin-right: 12px;
+	margin-bottom: 25px;
+}
+
+.fruit_info {
+	padding: 3px;
+}
+
+.mobileapp ul li,
+mobileapp ul li::after,
+mobileapp ul li::before {
+	display: table;
+	clear: both;
+	width: 100%;
+}
+
+.mobileapp ul li div {
+	float: left;
+
+}
+
+.mobileapp .populr_post li,
+.post ul li {
+	font-size: 15px;
+	color: #ffffff;
+	padding: 3px;
+	line-height: 1.5;
+}
+
+.mobileapp .populr_post li p {
+	font-size: 11px;
+	line-height: 1.5;
+}
+
+.mobileapp .suits .tweet {
+	width: 60%;
+}
+
+.mobileapp .about {
+	font-size: 15px;
+	color: #ffffff;
+	font-style: italic;
+	width: 75%;
+	line-height: 1.5;
+}
+
+.populr_post ul li {
+	margin-bottom: 25px;
+}
+
+/* =============================================================================================== */
+.fotter {
+	padding: 40px 0;
+	background-color: #d7dedc;
+}
+
+.fotter ul {
+	display: inline-block;
+}
+
+.fotter li {
+	display: inline-block;
+	padding: 0 25px;
+	font-size: 25px;
+	font-weight: 400;
+}
+
+.fotter li a {
+	color: #000;
+	font-size: 25px;
+	font-weight: 400;
+}
